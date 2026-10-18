@@ -62,12 +62,6 @@ export const DioramaSection: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
-          <div className="inline-flex items-center gap-2 bg-[#FFF8EE] border-2 border-[#1D1A2F] px-4 py-1 rounded-full shadow-[2px_2px_0px_#1D1A2F] mb-4">
-            <Sparkles className="w-4 h-4 text-[#7B61FF]" />
-            <span className="font-display font-bold text-xs sm:text-sm text-[#1D1A2F] uppercase tracking-wider">
-              Inside plearn world
-            </span>
-          </div>
           <h2 className="font-display font-bold text-3xl sm:text-5xl text-[#1D1A2F] tracking-tight mb-4">
             An isometric peek into how we learn
           </h2>

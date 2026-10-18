@@ -65,9 +65,6 @@ export const FooterSection: React.FC = () => {
         <div className="chunky-card bg-[#FFF8EE] p-8 sm:p-10 mb-16 relative">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
             <div className="md:col-span-7">
-              <div className="inline-flex items-center gap-2 bg-[#FFE9D2] border border-[#1D1A2F] px-3 py-1 rounded-full text-xs font-display font-bold text-[#FF5A36] mb-3">
-                <span>📬 Free Weekly Parent Digest</span>
-              </div>
               <h3 className="font-display font-bold text-2xl sm:text-3xl text-[#1D1A2F] mb-2">
                 "The Weekly Maker"
               </h3>

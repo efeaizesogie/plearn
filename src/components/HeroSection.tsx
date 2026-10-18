@@ -23,12 +23,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenGetStarted }) =>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 relative z-10 text-center">
         {/* Top Playful Badge */}
-        <div className="inline-flex items-center gap-2 bg-[#FFE9D2] border-2 border-[#1D1A2F] px-4 py-1.5 rounded-full shadow-[3px_3px_0px_#1D1A2F] mb-6">
-          <span className="w-2.5 h-2.5 rounded-full bg-[#FF5A36] animate-pulse" />
-          <span className="font-display font-semibold text-xs sm:text-sm text-[#1D1A2F]">
-            Spring 2026 Cohort Now Enrolling • Small squads of 4
-          </span>
-        </div>
 
         {/* Big Rounded Headline */}
         <h1 className="font-display font-bold text-4xl sm:text-6xl md:text-7xl leading-[1.08] text-[#1D1A2F] tracking-tight max-w-4xl mx-auto mb-6">

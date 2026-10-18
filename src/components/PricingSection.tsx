@@ -53,12 +53,6 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenGetStarted
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 bg-[#FFE9D2] border-2 border-[#1D1A2F] px-4 py-1.5 rounded-full shadow-[2px_2px_0px_#1D1A2F] mb-4">
-            <Sparkles className="w-4 h-4 text-[#FF5A36]" />
-            <span className="font-display font-bold text-xs sm:text-sm text-[#1D1A2F] uppercase tracking-wider">
-              Simple, transparent pricing
-            </span>
-          </div>
           <h2 className="font-display font-bold text-3xl sm:text-5xl text-[#1D1A2F] tracking-tight mb-4">
             One simple plan for after-school fun
           </h2>
@@ -137,10 +131,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenGetStarted
         {/* 6-Question FAQ Accordion */}
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-10">
-            <div className="inline-flex items-center gap-2 text-[#7B61FF] font-display font-bold text-sm uppercase tracking-wider mb-2">
-              <HelpCircle className="w-4 h-4" />
-              <span>Got questions? We have clear answers</span>
-            </div>
+            
             <h3 className="font-display font-bold text-2xl sm:text-3xl text-[#1D1A2F]">
               Frequently Asked Questions
             </h3>

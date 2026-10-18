@@ -71,12 +71,7 @@ export const ProofSection: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 bg-[#FFF8EE] border-2 border-[#1D1A2F] px-4 py-1.5 rounded-full shadow-[3px_3px_0px_#1D1A2F] mb-4">
-            <Heart className="w-4 h-4 text-[#FF5A36] fill-[#FF5A36]" />
-            <span className="font-display font-bold text-xs sm:text-sm text-[#1D1A2F] uppercase tracking-wider">
-              Real families, real growth
-            </span>
-          </div>
+          
 
           <h2 className="font-display font-black text-3xl sm:text-5xl text-white tracking-tight mb-4">
             Loved by kids, trusted by parents
