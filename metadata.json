@@ -1,0 +1,6 @@
+{
+  "name": "plearn",
+  "description": "A playful coding school for kids with fun after-school courses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

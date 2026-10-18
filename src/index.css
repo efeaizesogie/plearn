@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Fredoka', cursive, sans-serif;
+  --font-sans: 'Nunito', sans-serif;
+
+  --color-base: #FFF8EE;
+  --color-surface: #FFE9D2;
+  --color-charcoal: #1D1A2F;
+  --color-muted: #1D1A2F;
+  --color-secondary: #1D1A2F;
+  --color-accent: #FF5A36;
+  --color-violet: #7B61FF;
+}
+
+/* Custom utility styles matching the Pop Sorbet design system */
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFF8EE;
+  color: #1D1A2F;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: 'Fredoka', cursive, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* Chunky card hard shadows */
+.chunky-card {
+  border-radius: 32px;
+  border: 2px solid #1D1A2F;
+  box-shadow: 6px 6px 0px #1D1A2F;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.chunky-card-interactive:hover {
+  transform: translateY(-4px) rotate(0.8deg);
+  box-shadow: 8px 10px 0px #1D1A2F;
+}
+
+.chunky-btn {
+  border-radius: 9999px;
+  border: 2px solid #1D1A2F;
+  box-shadow: 3px 3px 0px #1D1A2F;
+  min-height: 44px;
+  transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.15s ease;
+  user-select: none;
+}
+
+.chunky-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 5px 0px #1D1A2F;
+}
+
+.chunky-btn:active {
+  transform: scale(0.96) translateY(1px);
+  box-shadow: 1px 1px 0px #1D1A2F;
+}
+
+/* Dotted connection line */
+.dotted-connector {
+  background-image: radial-gradient(#1D1A2F 25%, transparent 25%);
+  background-position: 0 0;
+  background-size: 16px 16px;
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
